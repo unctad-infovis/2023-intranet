@@ -125,7 +125,9 @@ function App() {
       <div className="col p-2 unctad60_container box">
         <div className="bg p-3 box">
           <div className="container">
-            <img src="./assets/img/unctad60_image.png" alt="" />
+            <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/UNCTAD60.aspx">
+              <img src="./assets/img/unctad60_image.png" alt="" />
+            </a>
           </div>
         </div>
       </div>

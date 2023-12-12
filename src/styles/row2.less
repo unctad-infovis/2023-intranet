@@ -14,7 +14,11 @@
   a {
     text-decoration: none;
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      .date,
+      .news_title {
+        font-weight: 500;
+      }
     }
     .date {
       color: @unbluedarktext;
@@ -65,7 +69,11 @@
     a {
       text-decoration: none;
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
+        .date,
+        .calendar_title {
+          font-weight: 500;
+        }
       }
       .date {
         color: @unbluedarktext;
@@ -89,9 +97,17 @@
     background-size: 100% 100%;
     display: flex;
     .container {
+      align-items: center;
       display: flex;
-        align-items: center;
-      img {
+      a {
+        transition: transform 0.1s;
+        &:hover {
+          opacity: 0.8;
+          transform: scale(1.05);
+          transition: transform 0.3s;
+          img {
+          }
+        }
       }
     }
   }

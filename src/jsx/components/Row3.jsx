@@ -66,7 +66,7 @@ function App() {
       </div>
       <div className="col p-2 meet_staff_container">
         <div className="bg p-3 box">
-          <div className="row">
+          <div className="row mb-3">
             <div className="col">
               <h3>
                 Meet
@@ -93,7 +93,7 @@ function App() {
       </div>
       <div className="col p-2 new_comer_container">
         <div className="bg p-3 box">
-          <div className="row">
+          <div className="row mb-3">
             <div className="col">
               <h3>Newcomer info</h3>
             </div>
