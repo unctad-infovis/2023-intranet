@@ -5,12 +5,51 @@
 #app-root-2023-intranet {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   @import 'row1.less';
-  
+
   video {
     width: 100%;
   }
+
   .box {
     border-radius: 20px;
+  }
+
+  .top-navbar {
+    height: 50px;
+
+    .nav-link {
+      color: white;
+      font-weight: 500;
+    }
+
+    .form-control {
+      width: 400px;
+
+      &::placeholder {
+        color: black;
+        opacity: 50%;
+      }
+    }
+
+    .navbar-collapse form[role="search"] input.form-control {
+      background-color: white;
+      color: black;
+      text-align: center;
+
+      .form-control::placeholder {
+        color: black;
+      }
+    }
+  }
+
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    padding-bottom: 4px;
+    color: rgb(51, 51, 51);
+    border-bottom: 2px solid rgb(0, 141, 197);
+    font-weight: 600;
+
   }
 }
 
