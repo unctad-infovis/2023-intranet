@@ -31,6 +31,7 @@
     border-radius: 20px;
   }
   .more_link_container {
+    margin-top: 10px;
     text-align: right;
     a {
       color: @unblue;
@@ -42,6 +43,31 @@
       &:after {
         background-color: transparent;
         background-image: url('./../assets/img/more_arrow.png');
+        background-size: 100% 100%;
+        content: '';
+        display: inline-block;
+        height: 30px;
+        margin-left: 5px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 30px;
+      }
+    }
+  }
+  .add_link_container {
+    margin-top: 10px;
+    text-align: right;
+    a {
+      color: @unblue;
+      display: block;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:after {
+        background-color: transparent;
+        background-image: url('./../assets/img/add.png');
         background-size: 100% 100%;
         content: '';
         display: inline-block;
