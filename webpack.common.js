@@ -5,7 +5,6 @@ const autoprefixer = require('autoprefixer')
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-
 module.exports = {
   entry: {
     app: './src/index.js'
@@ -47,7 +46,11 @@ module.exports = {
           },
           {
             // Interprets `@import` and `url()` like `import/require()` and will resolve them
-            loader: 'css-loader'
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+              url: false
+            }
           },
           {
             // Loader for webpack to process CSS with PostCSS
@@ -91,9 +94,6 @@ module.exports = {
     clean: true
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: 'css/' + name + '.min.css'
-    }),
     new HtmlWebPackPlugin({
       title: name,
       template: "./src/html/index.html",

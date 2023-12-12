@@ -3,7 +3,6 @@ import React, { /* useState, useEffect, useRef */ } from 'react';
 function App() {
   return (
     <div className="container text-center p-3">
-
       <div className="row align-items-start">
         <h4 className="text-start">UNCTAD Locations</h4>
         <div className="col">

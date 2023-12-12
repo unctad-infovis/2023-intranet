@@ -61,9 +61,9 @@ function App() {
           </div>
           <div className="row mb-3">
             <div className="col calendar_button_container">
-              <button type="button" className="button_today">Today</button>
-              <button type="button" className="button_calendar">Calendar</button>
-              <button type="button" className="button_un_calendar">UN calendar</button>
+              <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/Lists/CombinedCalendar/Todays%20Event.aspx" className="button_today">Today</a>
+              <a href="https://unitednations.sharepoint.com//sites/UNCTAD_Intranet/SitePages/Calendar.aspx" className="button_calendar">Calendar</a>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/Shared%20Documents/DGC%20Forecast%20Grid%202023.pdf" className="button_un_calendar">UN calendar</a>
             </div>
           </div>
           <div className="row calendar box pt-3 ms-1 me-1 mt-1 mb-2">
@@ -88,7 +88,7 @@ function App() {
                   <img src="./assets/img/circles_yellow.jpg" alt="" />
                 </div>
                 <div className="col ms-2">
-                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3748">
+                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3747">
                     <div className="row">
                       <div className="col date">12 December 2023</div>
                     </div>
@@ -103,7 +103,7 @@ function App() {
                   <img src="./assets/img/circles_blue.jpg" alt="" />
                 </div>
                 <div className="col ms-2">
-                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3748">
+                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3746">
                     <div className="row">
                       <div className="col date">11 December 2023</div>
                     </div>
@@ -117,7 +117,7 @@ function App() {
           </div>
           <div className="row">
             <div className="col more_link_container">
-              <a href="See more">See more</a>
+              <a href="https://unitednations.sharepoint.com//sites/UNCTAD_Intranet/SitePages/Calendar.aspx">See more</a>
             </div>
           </div>
         </div>

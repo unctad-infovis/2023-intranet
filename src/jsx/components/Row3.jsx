@@ -58,8 +58,11 @@ function App() {
             </div>
           </div>
           <div className="row">
+            <div className="col add_link_container">
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/Lists/Noticeboard/NewForm.aspx">Create new</a>
+            </div>
             <div className="col more_link_container">
-              <a href="See more">See more</a>
+              <a href="Shttps://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/AllStaffBoard.aspx">See more</a>
             </div>
           </div>
         </div>
@@ -86,7 +89,7 @@ function App() {
           </div>
           <div className="row">
             <div className="col more_link_container">
-              <a href="See more">See more</a>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/AllStaffProfile.aspx">See more</a>
             </div>
           </div>
         </div>
@@ -107,7 +110,7 @@ function App() {
           </div>
           <div className="row">
             <div className="col more_link_container">
-              <a href="See more">See more</a>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/New-comer-information.aspx">See more</a>
             </div>
           </div>
         </div>
