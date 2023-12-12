@@ -5,13 +5,46 @@
 #app-root-2023-intranet {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   @import 'row1.less';
+  @import 'row2.less';
   
+  img,
   video {
     width: 100%;
+  }
+  h3 {
+    color: @ungreytext;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
   }
   .box {
     border-radius: 20px;
   }
+  .more_link_container {
+    text-align: right;
+    a {
+      color: @unblue;
+      display: block;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:after {
+        background-color: transparent;
+        background-image: url('./../assets/img/more_arrow.png');
+        background-size: 100% 100%;
+        content: '';
+        display: inline-block;
+        height: 30px;
+        margin-left: 5px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 30px;
+      }
+    }
+  }
 }
+
 
 @import 'basics.less';
