@@ -32,6 +32,7 @@
         "no-param-reassign": [0],
         "no-plusplus":0,
         "no-tabs": 1,
+        "jsx-a11y/control-has-associated-label":0,
         "jsx-a11y/anchor-is-valid":0,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     }
