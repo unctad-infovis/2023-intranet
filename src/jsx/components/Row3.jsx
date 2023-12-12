@@ -12,12 +12,27 @@ function App() {
             <div className="col">
               <div className="row mb-3">
                 <div className="col col-1 icon">
+                  <img src="./assets/img/circles_yellow.jpg" alt="" />
+                </div>
+                <div className="col ms-2">
+                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=13">
+                    <div className="row">
+                      <div className="col date">11 December 2023</div>
+                    </div>
+                    <div className="row">
+                      <div className="col calendar_title">Join the Brownbag lunch on IT security issues</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="row mb-3">
+                <div className="col col-1 icon">
                   <img src="./assets/img/circles_blue.jpg" alt="" />
                 </div>
                 <div className="col ms-2">
                   <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=12">
                     <div className="row">
-                      <div className="col date">12 December 2023</div>
+                      <div className="col date">06 December 2023</div>
                     </div>
                     <div className="row">
                       <div className="col calendar_title">Found a ring on the 7th floor</div>
@@ -32,7 +47,7 @@ function App() {
                 <div className="col ms-2">
                   <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=11">
                     <div className="row">
-                      <div className="col date">12 December 2023</div>
+                      <div className="col date">29 November 2023</div>
                     </div>
                     <div className="row">
                       <div className="col calendar_title">I have a better car to sell, only used it for 2 years, 3 more year…</div>
@@ -47,10 +62,10 @@ function App() {
                 <div className="col ms-2">
                   <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=10">
                     <div className="row">
-                      <div className="col date">11 December 2023</div>
+                      <div className="col date">29 November 2023</div>
                     </div>
                     <div className="row">
-                      <div className="col calendar_title">Want to sell my car, less than 20000 milage call to be book an…</div>
+                      <div className="col calendar_title">Send your ideas for UNCTAD60</div>
                     </div>
                   </a>
                 </div>

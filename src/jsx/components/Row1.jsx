@@ -7,16 +7,12 @@ function App() {
         <div className="bg p-0 box">
           <div className="row pt-0 pe-0 pb-0 pe-0 mb-0">
             <div className="col">
-              <video controls className="box">
-                <track default kind="captions" srcLang="en" src="" />
-                <source src="https://storage.unctad.org/intranet/Rafe%20Dent.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <div className="image_container"><img className="box" src="./assets/img/header_image_01.jpg" alt="" /></div>
             </div>
           </div>
-          <div className="row p-0 m-0 mb-3 title">
+          <div className="row p-0 m-0 mt-3 mb-3 title">
             <div className="col col-4 left pb-3">
-              <h3>Rafe Dent</h3>
+              <h3>Welcome</h3>
             </div>
             <div className="col col-8 right ps-3">
               <h4>Trade, Environment, Climate Change and Sustainable Development Branch in the Division on International Trade and Commodities (DITC).</h4>

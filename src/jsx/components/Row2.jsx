@@ -10,40 +10,40 @@ function App() {
           </div>
           <div className="row mb-3">
             <div className="col-5">
-              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=4">
-                <div className="image_container"><img src="./assets/img/news_image_1.jpg" alt="" /></div>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=9">
+                <div className="image_container"><img src="./assets/img/news_image_3.jpg" alt="" /></div>
               </a>
             </div>
             <div className="col-7">
-              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=4">
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=9">
                 <div className="row"><div className="col date">13 December 2023</div></div>
-                <div className="row"><div className="col news_title">Townhall meeting!</div></div>
+                <div className="row"><div className="col news_title">Meeting with Hon. Dr. Sithembiso G. G. Nyoni, Minister of Industry and Commerce of Zimbabwe</div></div>
               </a>
             </div>
           </div>
           <div className="row mb-3">
             <div className="col-5">
               <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=4">
-                <div className="image_container"><img src="./assets/img/news_image_2.jpg" alt="" /></div>
+                <div className="image_container"><img src="./assets/img/news_image_4.jpg" alt="" /></div>
               </a>
             </div>
             <div className="col-7">
-              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=4">
-                <div className="row"><div className="col date">12 December 2023</div></div>
-                <div className="row"><div className="col news_title">UNCTAD Women Network Picnic and Reconnecting</div></div>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=8">
+                <div className="row"><div className="col date">11 December 2023</div></div>
+                <div className="row"><div className="col news_title">Meeting with H.E. Ms. Heidi Schroderus-Fox, Ambassador of Finland</div></div>
               </a>
             </div>
           </div>
           <div className="row mb-3">
             <div className="col-5">
-              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=4">
-                <div className="image_container"><img src="./assets/img/news_image_2.jpg" alt="" /></div>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=7">
+                <div className="image_container"><img src="./assets/img/news_image_5.jpg" alt="" /></div>
               </a>
             </div>
             <div className="col-7">
-              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=4">
-                <div className="row"><div className="col date">12 December 2023</div></div>
-                <div className="row"><div className="col news_title">El Pais interview with our SG El Pais interview</div></div>
+              <a href="https://unitednations.sharepoint.com/sites/UNCTAD_Intranet/SitePages/SGActivityItem.aspx?ItemId=7">
+                <div className="row"><div className="col date">08 December 2023</div></div>
+                <div className="row"><div className="col news_title">Meeting with H.E. Australian Ambassador George Mina</div></div>
               </a>
             </div>
           </div>
