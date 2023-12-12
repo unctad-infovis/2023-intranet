@@ -27,7 +27,7 @@ function App() {
     <div>
       <Nav />
 
-      <div className="container text-center">
+      <div className="container">
         <Row1 />
         <Row2 />
         <Row3 />
