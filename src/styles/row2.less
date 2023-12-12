@@ -1,9 +1,13 @@
 .news_container {
-  background-color: rgb(197 223 239);
+  flex: 1;
+  > .bg {
+    height: 100%;
+    background-color: rgb(197 223 239);
+  }
   .image_container {
     img {
-      border: 5px solid #fff;
       border-radius: 5px;
+      border: 5px solid #fff;
       width: 100%;
     }
   }
@@ -18,9 +22,76 @@
     }
     .news_title {
       color: #333;
+      font-size: 16px;
       font-weight: 300;
-      font-size: 18px;
       line-height: 22px;
+    }
+  }
+}
+
+.calendar_container {
+  flex: 1;
+  > .bg {
+    background-color: rgb(197 223 239);
+  }
+  .calendar_button_container {
+    text-align: right;
+    button {
+      border-radius: 10px;
+      border: 0;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0 5px;
+      padding: 5px 10px;
+      &.button_today {
+        background-color: #a05fb4;
+      }
+      &.button_calendar {
+        background-color: #aaa096
+      }
+      &.button_un_calendar {
+        background-color: #019edb;
+      }
+    }
+  }
+  .calendar {
+    background-color: #fff;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+      .date {
+        color: @unbluedarktext;
+        font-weight: 400;
+      }
+      .calendar_title {
+        color: #333;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+.unctad60_container {
+  flex: 1;
+  display: flex;
+  > .bg {
+    display: flex;
+    background-image: url('../assets/img/unctad60_bg.jpg');
+    background-size: 100% 100%;
+    .container {
+      display: flex;
+        align-items: center;
+      img {
+      }
     }
   }
 }
