@@ -2,8 +2,8 @@ import React, { /* useState, useEffect, useRef */ } from 'react';
 
 function App() {
   return (
-    <div className="row">
-      <div className="col p-3 news_container box">
+    <div className="row mb-1 mt-1">
+      <div className="col p-2 news_container box">
         <div className="bg p-3 box">
           <div className="row mb-3">
             <div className="col"><h3>SG activities</h3></div>
@@ -54,7 +54,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="col p-3 calendar_container">
+      <div className="col p-2 calendar_container">
         <div className="bg p-3 box">
           <div className="row mb-3">
             <div className="col"><h3>Tuesday 12 December</h3></div>
@@ -122,7 +122,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="col p-3 unctad60_container box">
+      <div className="col p-2 unctad60_container box">
         <div className="bg p-3 box">
           <div className="container">
             <img src="./assets/img/unctad60_image.png" alt="" />
