@@ -1,3 +1,52 @@
 .staff_board_container {
-  
+  flex: 1;
+  > .bg {
+    background-color: rgb(197 223 239);
+    height: 100%;
+  }
+  .board {
+    background-color: #fff;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+      .date {
+        color: @unbluedarktext;
+        font-weight: 400;
+      }
+      .calendar_title {
+        color: #333;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+.meet_staff_container {
+  flex: 1;
+  > .bg {
+    background-color: rgb(197 223 239);
+    height: 100%;
+  }
+}
+
+.new_comer_container {
+  flex: 1;
+  > .bg {
+    background-color: rgb(197 223 239);
+    height: 100%;
+  }
+  .text_container {
+    background-color: #fff;
+    p {
+      font-weight: 300;
+    }
+  }
 }
