@@ -35,7 +35,7 @@ function App() {
                       <div className="col date">12 December 2023</div>
                     </div>
                     <div className="row">
-                      <div className="col calendar_title">I have a better car to sell, only used it for 2 years, 3 more year–</div>
+                      <div className="col calendar_title">I have a better car to sell, only used it for 2 years, 3 more year…</div>
                     </div>
                   </a>
                 </div>
@@ -50,7 +50,7 @@ function App() {
                       <div className="col date">11 December 2023</div>
                     </div>
                     <div className="row">
-                      <div className="col calendar_title">Want to sell my car, less than 20000 milage call to be book an–</div>
+                      <div className="col calendar_title">Want to sell my car, less than 20000 milage call to be book an…</div>
                     </div>
                   </a>
                 </div>

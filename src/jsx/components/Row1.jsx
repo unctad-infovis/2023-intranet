@@ -18,9 +18,10 @@ function App() {
       </div>
       <div className="col p-3 col-4 ">
         <div className="p-3 quick_links_container box h-100">
-          <h3 className="text-start p-1">
-            <strong>Quick</strong>
-            Links
+          <h3 className="p-1">
+            Quick
+            {' '}
+            <span>links</span>
           </h3>
           <div className="d-flex align-items-center flex-wrap align-content-center justify-content-evenly">
             <div className="row justify-content-center ">
