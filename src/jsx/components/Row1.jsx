@@ -15,7 +15,7 @@ function App() {
               <h3>Welcome</h3>
             </div>
             <div className="col col-8 right ps-3">
-              <h4>Trade, Environment, Climate Change and Sustainable Development Branch in the Division on International Trade and Commodities (DITC).</h4>
+              <h4>This is your new intranet.</h4>
             </div>
           </div>
         </div>
