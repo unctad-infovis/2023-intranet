@@ -15,7 +15,7 @@ function App() {
                   <img src="./assets/img/circles_blue.jpg" alt="" />
                 </div>
                 <div className="col ms-2">
-                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3748">
+                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=12">
                     <div className="row">
                       <div className="col date">12 December 2023</div>
                     </div>
@@ -30,7 +30,7 @@ function App() {
                   <img src="./assets/img/circles_yellow.jpg" alt="" />
                 </div>
                 <div className="col ms-2">
-                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3748">
+                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=11">
                     <div className="row">
                       <div className="col date">12 December 2023</div>
                     </div>
@@ -45,7 +45,7 @@ function App() {
                   <img src="./assets/img/circles_blue.jpg" alt="" />
                 </div>
                 <div className="col ms-2">
-                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/CalendarItem.aspx?ItemId=3748">
+                  <a href="https://unitednations.sharepoint.com/Sites/UNCTAD_Intranet/SitePages/StaffboardItem.aspx?ItemId=10">
                     <div className="row">
                       <div className="col date">11 December 2023</div>
                     </div>
